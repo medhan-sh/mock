@@ -1,0 +1,30 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: #172033;
+  background: #f6f8fb;
+}
+
+* { box-sizing: border-box; }
+
+body { margin: 0; }
+
+main {
+  width: min(680px, calc(100% - 2rem));
+  margin: 15vh auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 12px 40px rgb(23 32 51 / 10%);
+}
+
+h1 { margin: 0 0 0.5rem; font-size: 2.75rem; }
+p { color: #526176; line-height: 1.5; }
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  color: #5b5bd6;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
